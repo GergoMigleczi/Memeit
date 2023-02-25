@@ -1,0 +1,28 @@
+.text h2, h3{
+    padding: 5px 20px;
+}
+
+@media screen and (max-width: 500px){
+    .text h2{
+        font-size: 1.2em;
+        padding: 0px 15px;
+        margin-top: 10px;
+    }
+
+    .text h3{
+        font-size: 0.6em;
+        padding: 0px 10px;
+        text-align: right;
+        width: 100%;
+    }
+
+    .text{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    .text{
+        padding-left: 50px
+    }
+}

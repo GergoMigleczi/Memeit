@@ -1,0 +1,10 @@
+.posts{
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1300px){
+    .posts{
+        width: 95%;
+    }
+}

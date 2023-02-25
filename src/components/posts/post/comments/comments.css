@@ -1,0 +1,44 @@
+.comments{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.comment-loading{
+    padding: 5px;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-loader {
+    border: 7px solid #f3f3f3; /* Light grey */
+    border-top: 7px solid #ff4400; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.close{
+  text-align: center;
+  padding: 3px;
+  font-size: 0.8em;
+  text-decoration: underline;
+  cursor: pointer;
+  width: 14%;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.close a{
+  color: var(--textColor);
+}

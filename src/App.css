@@ -1,0 +1,41 @@
+.main{
+ position: relative;
+ top: 100px;
+ padding: 10px;
+ display: flex;
+}
+
+.head{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.main-loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    position: relative;
+    top: 100px;
+   }
+
+.loading{
+    text-align: center;
+    margin-right: 10px;
+}
+
+.loader {
+    border: 7px solid #f3f3f3; /* Light grey */
+    border-top: 7px solid black; /* Blue */
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

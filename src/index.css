@@ -1,0 +1,26 @@
+
+body {
+  margin: 0 auto;
+  font-family: 'Comfortaa', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 2000px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.svg-icon{
+  fill: var(--textColor);
+}
+
+:root{
+  --elementColor: white;
+  --shadow: 2px 2px 8px lightgray;
+  --border: 2px solid black;
+  --bodyColor: rgb(255, 255, 255);
+  --subredditColor: lightgray;
+  --textColor: black;
+}
